@@ -1,0 +1,15 @@
+"author":{
+    "@type":"Person",
+    "name":"Tristan Possessky",
+    "alternateName":"Tristan L. Possessky",
+    "sameAs":[
+		"https://www.facebook.com/brett.j.lewis",
+		"https://twitter.com/BrettJLewis",
+		"https://www.instagram.com/brettlewis/",
+		"https://www.crunchbase.com/person/brett-lewis",
+		"https://www.youtube.com/channel/UCKe7jFfvaVEB2hPnT1uORDA",
+		"https://www.linkedin.com/in/brettjlewis/",
+		"https://www.quora.com/profile/Brett-Lewis-28",
+		"https://about.me/brett-lewis"
+    ]
+  }

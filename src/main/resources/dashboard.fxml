@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.image.Image?>
+<AnchorPane fx:id="parent" prefHeight="600" prefWidth="1024.0" styleClass="parent" stylesheets="@stylesheet.css" xmlns="http://javafx.com/javafx/" xmlns:fx="http://javafx.com/fxml/" fx:controller="DashboardController">
+    <VBox alignment="TOP_CENTER" prefHeight="600.0" prefWidth="300.0" styleClass="sidebar">
+        <Pane prefHeight="75.0" prefWidth="300.0" style="-fx-background-color: #AED6F1;">
+            <padding>
+                <Insets left="10.0" />
+            </padding>
+
+                <ImageView fitHeight="75.0" fitWidth="236.0" layoutX="24.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                <Image url="/logo.png"/>
+
+                </ImageView>
+        </Pane>
+        <HBox id="projects" alignment="CENTER_LEFT" layoutX="10.0" layoutY="132.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#handleViewChanged" prefHeight="40.0" prefWidth="300.0" styleClass="btns">
+            <padding>
+                <Insets left="10.0" />
+            </padding>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+            <Label text="Projects" textFill="#7c8184">
+                <font>
+                    <Font name="Calibri Light" size="15.0" />
+                </font>
+                <HBox.margin>
+                    <Insets left="10.0" />
+                </HBox.margin>
+            </Label>
+        </HBox>
+        <HBox id="authors" alignment="CENTER_LEFT" layoutX="10.0" layoutY="132.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#handleViewChanged" prefHeight="40.0" prefWidth="300.0" styleClass="btns">
+            <padding>
+                <Insets left="10.0" />
+            </padding>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+            <Label text="Authors" textFill="#7c8184">
+                <font>
+                    <Font name="Calibri Light" size="15.0" />
+                </font>
+                <HBox.margin>
+                    <Insets left="10.0" />
+                </HBox.margin>
+            </Label>
+        </HBox>
+        <HBox id="organizations" alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#handleViewChanged" prefHeight="40.0" prefWidth="300.0" styleClass="btns">
+            <padding>
+                <Insets left="10.0" />
+            </padding>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+            <Label text="Organizations" textFill="#7c8184">
+                <font>
+                    <Font name="Calibri Light" size="15.0" />
+                </font>
+                <HBox.margin>
+                    <Insets left="10.0" />
+                </HBox.margin>
+            </Label>
+        </HBox>
+        <HBox id="templates" alignment="CENTER_LEFT" layoutX="10.0" layoutY="252.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#handleViewChanged" prefHeight="40.0" prefWidth="300.0" styleClass="btns">
+            <padding>
+                <Insets left="10.0" />
+            </padding>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+            <Label text="Templates" textFill="#7c8184">
+                <font>
+                    <Font name="Calibri Light" size="15.0" />
+                </font>
+                <HBox.margin>
+                    <Insets left="10.0" />
+                </HBox.margin>
+            </Label>
+        </HBox>
+        <VBox prefHeight="10" prefWidth="300.0" styleClass="box" VBox.vgrow="ALWAYS">
+            <VBox.margin>
+                <Insets />
+            </VBox.margin>
+            <padding>
+                <Insets left="10.0" top="10.0" />
+            </padding>
+        </VBox>
+
+    </VBox>
+    <VBox layoutX="300.0" prefHeight="600.0" prefWidth="724.0">
+
+        <HBox alignment="CENTER" />
+        <BorderPane fx:id="appFrame" prefHeight="536.0" prefWidth="724.0">
+            <center>
+                <fx:include source="welcome.fxml" />
+            </center>
+        </BorderPane>
+    </VBox>
+</AnchorPane>

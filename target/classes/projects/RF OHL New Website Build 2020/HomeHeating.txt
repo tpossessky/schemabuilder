@@ -1,0 +1,116 @@
+<script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "headline": "$$$",
+  "mainEntityOfPage":{
+    "@type": "WebPage",
+    "@id": "$$$"
+  },
+
+  "image": "$$$",
+  "genre":"$$$",
+  "keywords":"$$$",
+  "wordcount":"$$$",
+  "url":"$$$",
+  "datePublished":"$$$",
+  "dateCreated":"$$$",
+  "dateModified":"$$$",
+  "description":"$$$",
+
+  "author":{
+    "@type":"Person",
+    "name":"$$$",
+    "alternateName":"",
+/    "sameAs":[
+      "$$$",
+      "$$$"
+    ]
+  },
+  "publisher":{
+    "@type":"Organization",
+    "name":"$$$",
+    "alternateName":"$$$",
+    "logo":{
+      "@type":"ImageObject",
+      "url":"$$$"
+    },
+    "url":"$$$",
+    "address":{
+      "@type":"PostalAddress",
+      "addressLocality":"$$$",
+      "addressRegion":"$$$",
+      "streetAddress":"$$$",
+      "postalCode":"$$$",
+      "addressCountry":"$$$"
+    },
+    "email":"$$$",
+    "description":"$$$",
+    "telephone":"$$$",
+    "hasOfferCatalog": {
+      "@type":"OfferCatalog",
+      "name":"$$$",
+      "itemListElement":[
+        {
+          "@type":"Offer",
+          "itemOffered":{
+            "@type":"Service",
+            "name":"$$$",
+            "url":"$$$​"
+          }
+        },{
+          "@type":"Offer",
+          "itemOffered":{
+            "@type":"Service",
+            "name":"$$$",
+            "url":"$$$"
+          }
+        },{
+          "@type":"Offer",
+          "itemOffered":{
+            "@type":"Service",
+            "name":"$$$",
+            "url":"$$$"
+          }
+        },{
+          "@type": "Offer",
+          "itemOffered": {
+            "@type":"Service",
+            "name":"$$$",
+            "url":"$$$"
+          }
+        },{
+          "@type": "Offer",
+          "itemOffered": {
+            "@type":"Service",
+            "name":"$$$",
+            "url":"$$$"
+          }
+        },{
+          "@type": "Offer",
+          "itemOffered": {
+            "@type":"Service",
+            "name":"$$$",
+            "url":"$$$"
+          }
+        }
+      ]
+    },
+    "sameAs":[
+      "$$$",
+      "$$$"
+    ],
+    "areaServed":{
+      "@type":"Country",
+      "name":"United States of America",
+      "additionalType":[
+        "https://www.wikidata.org/wiki/Q30"
+      ],
+      "url":"$$$"
+    },
+    "additionalType":[
+      "$$$",
+      "$$$"
+    ]
+  }
+}
+</script>
